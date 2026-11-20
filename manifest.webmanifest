@@ -1,0 +1,30 @@
+{
+  "name": "Rolling Bastion",
+  "short_name": "Rolling Bastion",
+  "description": "Build a fortress, grow a giant army, survive the nights.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#10131c",
+  "theme_color": "#10131c",
+  "lang": "en",
+  "icons": [
+    {
+      "src": "ikon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "ikon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "ikon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
