@@ -1,5 +1,5 @@
-/* Rolling Bastion servis işçisi — sürüm a11ca8aea712 (pwa-kur.js üretir; elle düzenleme) */
-const ONBELLEK = "rb-a11ca8aea712";
+/* Rolling Bastion servis işçisi — sürüm 345d894f7418 (pwa-kur.js üretir; elle düzenleme) */
+const ONBELLEK = "rb-345d894f7418";
 const AG_ONCE = ["./", "index.html", "kasa.json", "oyun.bin"];
 const DOSYALAR = AG_ONCE.concat(["manifest.webmanifest", "ikon-180.png", "ikon-192.png", "ikon-512.png", "ikon-maskable-512.png"]);
 self.addEventListener("install", e => { e.waitUntil(caches.open(ONBELLEK).then(c => c.addAll(DOSYALAR)).then(() => self.skipWaiting())); });
